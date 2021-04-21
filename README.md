@@ -1,2 +1,2 @@
 # portfolio
-[Open deployed app](diego-pedraza.netlify.app)
+[Open deployed app](https://diego-pedraza.netlify.app/)
