@@ -728,8 +728,10 @@ Footer
 .footer {
 	padding-bottom: 2rem;
 	background: #222;
-	display: grid;
-	place-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .footer .social-icons {
 	display: flex;
@@ -749,6 +751,7 @@ Footer
 }
 
 .footer p {
+	text-align: center;
 	font-size: 1.25rem;
 	text-transform: capitalize;
 }
