@@ -1,12 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>products page</title>
-  </head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Diego Pedraza || Projects</title>
+		<link
+			rel="stylesheet"
+			href="./fontawesome-free-5.12.1-web/css/all.min.css"
+		/>
+		<!-- css -->
+		<link rel="stylesheet" href="./css/styles.css" />
+	</head>
 
-  <body>
-    <h1>products page</h1>
-  </body>
+	<body>
+		<!-- navbar -->
+		<nav class="nav" id="nav">
+			<div class="nav-center">
+				<!-- nav header -->
+				<div class="nav-header">
+					<img src="./images/logo.png" alt="nav logo" class="nav-logo" />
+					<button class="nav-btn" id="nav-btn">
+						<i class="fas fa-bars"></i>
+					</button>
+				</div>
+				<!-- nav links -->
+				<ul class="nav-links">
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="./about.html">About</a></li>
+					<li><a href="./projects.html">Projects</a></li>
+					<li><a href="./contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- end of navbar -->
+		<!-- sidebar -->
+		<aside class="sidebar" id="sidebar">
+			<div>
+				<button class="close-btn" id="close-btn">
+					<i class="fas fa-times"></i>
+				</button>
+				<ul class="sidebar-links">
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="./about.html">About</a></li>
+					<li><a href="./projects.html">Projects</a></li>
+					<li><a href="./contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</aside>
+		<!-- end of sidebar -->
+
+		<!-- ############## -->
+		<!-- ############## -->
+		<!-- ############## -->
+		<!-- ############## -->
+		<header class="projects-hero">
+			<!-- section title -->
+			<div class="section-title">
+				<h1>my projects</h1>
+				<div class="underline"></div>
+			</div>
+			<p class="projects-text">
+				To see the deployed version (Live) click in the globe icon. To see the
+				source code, in the Github icon.
+			</p>
+			<!--end of section title -->
+		</header>
+		<section class="section projects-page">
+			<div class="section-center projects-page-center">
+				<!-- single project -->
+				<article class="single-project">
+					<div class="project-container">
+						<img src="./images/project-1.png" alt="single project" />
+						<a
+							href="https://diego-github-user-stats.netlify.app/"
+							class="project-icon"
+							target="_blank"
+						>
+							<i class="fas fa-globe"></i>
+						</a>
+					</div>
+					<div class="project-details">
+						<h4>Github User Stats</h4>
+						<p>
+							React app that provides several stats and general data about a
+							user's github.
+						</p>
+						<p>
+							It uses <strong>GitHub's API</strong> for fetching the data,
+							<strong>React Router</strong> for navigation,
+							<strong>Auth0</strong> for login, <strong>Context API</strong> to
+							avoid props drilling and <strong>Fusion Charts</strong> to show
+							the different graphs.
+						</p>
+
+						<div class="project-footer">
+							<a
+								href="https://github.com/diego-pedraza/github-user-stats"
+								target="_blank"
+								><i class="fab fa-github"></i
+							></a>
+						</div>
+					</div>
+				</article>
+				<!-- end of single project -->
+
+				<!-- single project -->
+				<article class="single-project">
+					<div class="project-container">
+						<img src="./images/project-2.png" alt="single project" />
+						<a
+							href="https://diego-yelpcamp-campgrounds.herokuapp.com/"
+							class="project-icon"
+							target="_blank"
+						>
+							<i class="fas fa-globe"></i>
+						</a>
+					</div>
+					<div class="project-details">
+						<h4>YelpCamp</h4>
+						<p>
+							Application using templating: <strong>EJS</strong> to implement JS
+							in HTML. <strong>Bootstrap 5</strong>.
+							<strong>Mongo</strong> (cloud) as DB,
+							<strong>ExpressJS</strong> to help with the middleware and
+							backend.
+						</p>
+						<p>
+							<strong>JOI</strong> schema validations.
+							<strong>Passport</strong> library for authentication.
+							<strong>Multer</strong> and <strong>Cloudinary</strong> for Image
+							Upload. <strong>Mapbox</strong> for working with GeoJSON and
+							adding interactive maps.
+						</p>
+
+						<div class="project-footer">
+							<a
+								href="https://github.com/diego-pedraza/yelpcamp"
+								target="_blank"
+								><i class="fab fa-github"></i
+							></a>
+						</div>
+					</div>
+				</article>
+				<!-- end of single project -->
+
+				<!-- single project -->
+				<article class="single-project">
+					<div class="project-container">
+						<img src="./images/project-3.png" alt="single project" />
+						<a
+							href="https://diego-cocktails-app.netlify.app"
+							target="_blank"
+							class="project-icon"
+						>
+							<i class="fas fa-globe"></i>
+						</a>
+					</div>
+					<div class="project-details">
+						<h4>Cocktails DB</h4>
+						<p>
+							React app that provides Cocktails data using
+							<strong>CocktailDB API</strong>. It also uses
+							<strong>React Router</strong> for navigation,
+							<strong>Context API</strong>, <strong>Fetch</strong> for fetching
+							the data and finally <strong>UseState</strong>,
+							<strong>UseContext</strong> and <strong>UseEffect</strong> Hooks.
+						</p>
+
+						<div class="project-footer">
+							<a
+								href="https://github.com/diego-pedraza/cocktails-app"
+								target="_blank"
+								><i class="fab fa-github"></i
+							></a>
+						</div>
+					</div>
+				</article>
+				<!-- end of single project -->
+
+				<!-- single project -->
+				<article class="single-project">
+					<div class="project-container">
+						<img src="./images/project-4.png" alt="single project" />
+						<a
+							href="https://diego-stock-photos.netlify.app"
+							class="project-icon"
+							target="_blank"
+						>
+							<i class="fas fa-globe"></i>
+						</a>
+					</div>
+					<div class="project-details">
+						<h4>Stock Photos</h4>
+						<p>
+							React app that provides pictures from Unsplash according to a
+							search term. It uses <strong>Unsplash's API</strong> for fetching
+							the data, <strong>UseState</strong> and
+							<strong>UseEffect</strong> Hooks. It also uses
+							<strong>conditional rendering</strong>,
+							<strong>DOM manipulation</strong> and
+							<strong>controlled inputs</strong>.
+						</p>
+
+						<div class="project-footer">
+							<a
+								href="https://github.com/diego-pedraza/stock-photos-app"
+								target="_blank"
+								><i class="fab fa-github"></i
+							></a>
+						</div>
+					</div>
+				</article>
+				<!-- end of single project -->
+			</div>
+		</section>
+		<!-- ############## -->
+		<!-- ############## -->
+		<!-- ############## -->
+		<!-- ############## -->
+
+		<!-- footer -->
+		<footer class="footer">
+			<!-- social icons -->
+			<ul class="social-icons">
+				<li>
+					<a
+						href="https://github.com/diego-pedraza"
+						class="social-icon"
+						target="_blank"
+					>
+						<i class="fab fa-github"></i>
+					</a>
+				</li>
+				<li>
+					<a
+						href="https://www.linkedin.com/in/diego-pedraza-roca/"
+						class="social-icon"
+						target="_blank"
+					>
+						<i class="fab fa-linkedin"></i>
+					</a>
+				</li>
+				<li>
+					<a href="mailto:diegojp747@email.com" class="social-icon">
+						<i class="fab fa-google"></i>
+					</a>
+				</li>
+			</ul>
+
+			<p>&copy; <span id="date"></span> Diego Pedraza. All rights reserved</p>
+		</footer>
+		<!-- footer -->
+
+		<script src="./js/app.js"></script>
+	</body>
 </html>

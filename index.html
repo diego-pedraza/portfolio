@@ -1,50 +1,405 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>John Doe || Home</title>
-    <!-- font-awesome -->
-    <link
-      rel="stylesheet"
-      href="./fontawesome-free-5.12.1-web/css/all.min.css"
-    />
-    <!-- css -->
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <!-- navbar -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Diego Pedraza || Home</title>
+		<!-- font-awesome -->
+		<link
+			rel="stylesheet"
+			href="./fontawesome-free-5.12.1-web/css/all.min.css"
+		/>
+		<!-- css -->
+		<link rel="stylesheet" href="./css/styles.css" />
+	</head>
+	<body>
+		<!-- navbar -->
+		<nav class="nav" id="nav">
+			<div class="nav-center">
+				<!-- nav header -->
+				<div class="nav-header">
+					<img src="./images/logo.png" alt="nav logo" class="nav-logo" />
+					<button class="nav-btn" id="nav-btn">
+						<i class="fas fa-bars"></i>
+					</button>
+				</div>
+				<!-- nav links -->
+				<ul class="nav-links">
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="./about.html">About</a></li>
+					<li><a href="./projects.html">Projects</a></li>
+					<li><a href="./contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- end of navbar -->
+		<!-- sidebar -->
+		<aside class="sidebar" id="sidebar">
+			<div>
+				<button class="close-btn" id="close-btn">
+					<i class="fas fa-times"></i>
+				</button>
+				<ul class="sidebar-links">
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="./about.html">About</a></li>
+					<li><a href="./projects.html">Projects</a></li>
+					<li><a href="./contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</aside>
+		<!-- end of sidebar -->
+		<!-- header -->
+		<header class="hero">
+			<div class="section-center hero-center">
+				<article class="hero-info">
+					<div class="underline"></div>
+					<h1>I'm Diego</h1>
+					<h4>A Full Stack Web Developer</h4>
+					<a href="contact.html" class="btn hero-btn">Contact me</a>
+				</article>
+				<article class="hero-img">
+					<img
+						src="./images/hero-img.png"
+						alt="diego pedraza"
+						class="hero-photo"
+					/>
+				</article>
+			</div>
+		</header>
+		<!-- end of header -->
+		<!-- about -->
+		<section class="section about">
+			<div class="section-center about-center">
+				<!-- about img -->
+				<article class="about-img">
+					<img
+						src="./images/about-img.png"
+						class="hero-photo"
+						alt="about image"
+					/>
+				</article>
+				<!-- about info -->
+				<article class="about-info">
+					<!-- section title -->
+					<div class="section-title about-title">
+						<h2>About</h2>
+						<div class="underline-secondary"></div>
+					</div>
+					<!-- en of section title -->
+					<p>
+						I'm from... well, I guess you could call me a citizen of the world,
+						I've started traveling and moving between continents from a very
+						young age but I consider myself <em>mostly</em> Spanish.
+					</p>
+					<p>
+						I'm a sponge, I have a very curious and intrepid mind and want to
+						know everything about anything.
+					</p>
+					<p>
+						People say I'm friendly, joyful and in general a nice guy to have
+						around to talk about traveling, memes, beer brewing and new trends
+						in the IT world.
+					</p>
+					<a href="about.html" class="btn">Know more</a>
+				</article>
+			</div>
+		</section>
+		<!-- end of about -->
 
-    <!-- end of navbar -->
-    <!-- sidebar -->
+		<!-- projects -->
+		<section class="section projects">
+			<!-- section title -->
+			<div class="section-title">
+				<h2>latest work</h2>
+				<div class="underline"></div>
+				<p class="projects-text">
+					I have been learning MERN stack for some time but nowadays I'm
+					focusing more on the "R" - React. Please navigate to the Projects
+					section to know more about the projects or click in any of the
+					thumbnails below &#x1F60A;.
+				</p>
+			</div>
+			<!--end of section title -->
+			<div class="section-center projects-center">
+				<!-- single project -->
+				<a
+					href="https://diego-github-user-stats.netlify.app/"
+					class="project-1"
+					target="_blank"
+				>
+					<article class="project">
+						<img
+							src="./images/project-1.png"
+							alt="single project"
+							class="project-img"
+						/>
+						<div class="project-info">
+							<h4>Github User Stats</h4>
+						</div>
+					</article>
+				</a>
+				<!-- end of single project -->
 
-    <!-- end of sidebar -->
-    <!-- header -->
+				<!-- single project -->
+				<a
+					href="https://diego-yelpcamp-campgrounds.herokuapp.com/"
+					class="project-2"
+					target="_blank"
+				>
+					<article class="project">
+						<img
+							src="./images/YelpCamp.png"
+							alt="single project"
+							class="project-img"
+						/>
+						<div class="project-info">
+							<h4>YelpCamp</h4>
+						</div>
+					</article>
+				</a>
+				<!-- end of single project -->
 
-    <!-- end of header -->
-    <!-- about -->
+				<!-- single project -->
+				<a
+					class="project-3"
+					href="https://diego-cocktails-app.netlify.app"
+					target="_blank"
+				>
+					<article class="project">
+						<img
+							src="./images/project-3.png"
+							alt="single project"
+							class="project-img"
+						/>
+						<div class="project-info">
+							<h4>Cocktails DB</h4>
+						</div>
+					</article>
+				</a>
+				<!-- end of single project -->
 
-    <!-- end of about -->
-    <!-- services -->
+				<!-- single project -->
+				<a
+					href="https://diego-stock-photos.netlify.app"
+					class="project-4"
+					target="_blank"
+				>
+					<article class="project">
+						<img
+							src="./images/project-4.png"
+							alt="single project"
+							class="project-img"
+						/>
+						<div class="project-info">
+							<h4>Stock Photos</h4>
+						</div>
+					</article>
+				</a>
+				<!-- end of single project -->
+			</div>
+		</section>
+		<!-- end of projects -->
 
-    <!-- end of services -->
-    <!-- projects -->
+		<!-- skills -->
+		<section class="section skills">
+			<!-- section title -->
+			<div class="section-title">
+				<h2>skills</h2>
+				<div class="underline-secondary"></div>
+			</div>
+			<!--end of section title -->
 
-    <!-- end of projects -->
-    <!-- connect -->
+			<div class="section-center skills-center">
+				<article>
+					<h3>front end</h3>
+					<!-- single skill -->
+					<div class="skill">
+						<p>React</p>
+						<div class="skill-container">
+							<div class="skill-value"></div>
+							<p class="skill-text">50%</p>
+						</div>
+					</div>
+					<!--end of  single skill -->
 
-    <!-- end of connect -->
-    <!-- skills -->
+					<!-- single skill -->
+					<div class="skill">
+						<p>ExtJS</p>
+						<div class="skill-container">
+							<div class="skill-value value-60"></div>
+							<p class="skill-text skill-text-60">60%</p>
+						</div>
+					</div>
+					<!--end of  single skill -->
 
-    <!-- end of skills -->
-    <!-- timeline -->
+					<!-- single skill -->
+					<div class="skill">
+						<p>HTML/CSS</p>
+						<div class="skill-container">
+							<div class="skill-value value-70"></div>
+							<p class="skill-text skill-text-70">70%</p>
+						</div>
+					</div>
+					<!--end of  single skill -->
 
-    <!--end of  timeline -->
-    <!-- blog -->
+					<!-- single skill -->
+					<div class="skill">
+						<p>Javascript</p>
+						<div class="skill-container">
+							<div class="skill-value value-80"></div>
+							<p class="skill-text skill-text-80">80%</p>
+						</div>
+					</div>
+					<!--end of  single skill -->
+				</article>
 
-    <!--end of  blog -->
-    <!-- footer -->
+				<article>
+					<h3>back end</h3>
+					<!-- single skill -->
+					<div class="skill">
+						<p>Node</p>
+						<div class="skill-container">
+							<div class="skill-value"></div>
+							<p class="skill-text">50%</p>
+						</div>
+					</div>
+					<!--end of  single skill -->
 
-    <script src="./js/app.js"></script>
-  </body>
+					<!-- single skill -->
+					<div class="skill">
+						<p>JAVA</p>
+						<div class="skill-container">
+							<div class="skill-value"></div>
+							<p class="skill-text">50%</p>
+						</div>
+					</div>
+					<!--end of  single skill -->
+
+					<!-- single skill -->
+					<div class="skill">
+						<p>MongoDB</p>
+						<div class="skill-container">
+							<div class="skill-value"></div>
+							<p class="skill-text">50%</p>
+						</div>
+					</div>
+					<!--end of  single skill -->
+
+					<!-- single skill -->
+					<div class="skill">
+						<p>SQL</p>
+						<div class="skill-container">
+							<div class="skill-value value-80"></div>
+							<p class="skill-text skill-text-80">80%</p>
+						</div>
+					</div>
+					<!--end of  single skill -->
+				</article>
+			</div>
+		</section>
+		<!-- end of skills -->
+
+		<!-- timeline -->
+		<section class="section timeline">
+			<!-- section title -->
+			<div class="section-title">
+				<h2>timeline</h2>
+				<div class="underline"></div>
+			</div>
+			<!--end of section title -->
+			<div class="section-center timeline-center">
+				<!-- single timeline item -->
+				<article class="timeline-item">
+					<h4>2021</h4>
+					<p>
+						Still working as a Full Stack Web Developer but I also started
+						studying React and did some small tasks on it. Currently creating
+						small applications and doing courses in hope of landing a job where
+						I can use it to the fullest...
+					</p>
+					<span class="number"> 1 </span>
+				</article>
+				<!-- end of  single timeline item -->
+				<!-- single timeline item -->
+				<article class="timeline-item">
+					<h4>2020</h4>
+					<p>
+						Finally ventured into Web develepment as a Full Stack Web Developer.
+						Supporting and also developing new features for internal
+						applications used by all employees.
+					</p>
+					<span class="number"> 2 </span>
+				</article>
+				<!-- end of  single timeline item -->
+				<!-- single timeline item -->
+				<article class="timeline-item">
+					<h4>2019</h4>
+					<p>
+						Still in Nordea, moved from Service Desk to the global Test Data
+						Management team as an IT Infrastructure Specialist. Here I've acted
+						as both an IT Service manager and Request Fulfillment Engineer.
+					</p>
+					<span class="number"> 3 </span>
+				</article>
+				<!-- end of  single timeline item -->
+				<!-- single timeline item -->
+				<article class="timeline-item">
+					<h4>2018</h4>
+					<p>
+						Moved to Warsaw and started working as a Service Desk Specialist for
+						Nordea Bank. Giving support to the Nordics (Denmark, Sweden, Norway
+						and Finland). Got assigned the role of IT coordinator soon after.
+					</p>
+					<span class="number"> 4 </span>
+				</article>
+				<!-- end of  single timeline item -->
+				<!-- single timeline item -->
+				<article class="timeline-item">
+					<h4>2017</h4>
+					<p>
+						Finished Erasmus internship and started working as a Helpdesk IT
+						Analyst in Spanish language for HCL - Deutsche Bank project. Got
+						promoted into the 2nd line of support with global support (English).
+					</p>
+					<span class="number"> 5 </span>
+				</article>
+				<!-- end of  single timeline item -->
+			</div>
+		</section>
+		<!--end of  timeline -->
+		<!-- footer -->
+		<footer class="footer">
+			<!-- social icons -->
+			<ul class="social-icons">
+				<li>
+					<a
+						href="https://github.com/diego-pedraza"
+						class="social-icon"
+						target="_blank"
+					>
+						<i class="fab fa-github"></i>
+					</a>
+				</li>
+				<li>
+					<a
+						href="https://www.linkedin.com/in/diego-pedraza-roca/"
+						class="social-icon"
+						target="_blank"
+					>
+						<i class="fab fa-linkedin"></i>
+					</a>
+				</li>
+				<li>
+					<a href="mailto:diegojp747@email.com" class="social-icon">
+						<i class="fab fa-google"></i>
+					</a>
+				</li>
+			</ul>
+
+			<p>&copy; <span id="date"></span> Diego Pedraza. All rights reserved</p>
+		</footer>
+		<!-- footer -->
+
+		<script src="./js/app.js"></script>
+	</body>
 </html>
